@@ -1,0 +1,31 @@
+#bars{
+  max-height: 200px;
+}
+input[type=textarea], select {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: 10px arial, sans-serif;
+
+
+}
+.submitbars {
+    width: 100%;
+    background-color: #6495ED;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: 15px arial, sans-serif;
+}
+.submitbars:hover {
+    background-color: #45a049;
+    background: url('http://45.media.tumblr.com/tumblr_luu510AmJn1qfts8jo1_500.gif');
+}
+.submitbars:active {
+    background-color: #45a049;
+    background: url('http://45.media.tumblr.com/tumblr_luu510AmJn1qfts8jo1_500.gif');
+}
