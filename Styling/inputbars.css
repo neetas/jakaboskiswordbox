@@ -1,7 +1,7 @@
 #bars{
   max-height: 200px;
 }
-input[type=textarea], select {
+textarea.inputbars, select {
   width: 100%;
   height: auto;
   border: 1px solid #ccc;
