@@ -1,8 +1,10 @@
 $(document).ready(jaksbars);
 
 function jaksbars() {
-$( "#bars" ).submit(randomisebars)
+  $( "#bars" ).submit(randomisebars);
+  setInterval(function(){ $("#bars").submit() }, 1000);
 }
+
 function randomisebars( event ) {
 
   var $form = $(this),
@@ -23,4 +25,3 @@ function preventEnterSubmission()
     }
   });
 }
-setInterval(function(){ "jaksbars()" }, 1000);
