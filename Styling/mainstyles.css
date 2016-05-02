@@ -16,8 +16,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
   width: inherit;
+  white-space: pre-wrap;
 }
 .instructions{
   font: 10px arial, sans-serif;
   width: 100%;
+}
+.splitline {
+
 }
