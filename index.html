@@ -5,7 +5,7 @@
   <title> Jakaboski's Wordbox </title>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
- <script src="Components/randomise.js"></script>
+ <script src="components/randomise.js"></script>
 </head>
 
  <!-- 3. Import Styles -->
@@ -17,15 +17,14 @@
 <body class = "background">
   <h1 align="center">JAKS BARS </h1>
     <div class="instructions"> INSTRUCTIONS: <BR>
-      Separate bars with ;     For example: Ill make this space my own here watch me demonstrate
-      here to propel us strange clear of the everyday;
+      Enter bars as: Line 1_Line 2; Line 3_Line 4;     For example: Ill make this space my own here watch me demonstrate_here to propel us strange clear of the everyday;
       Trepedations, something fierce how the tremors shake_this featherweight, elevate, shift gear, get away;
       Yo Mamma so fat_And looks like a cat; Giant jellyfizz machines_But I do enjoy custard creams;
       <BR><BR> <BR>
     </div>
       <div align="center">
     <form id="bars">
-    <textarea class="inputbars" name="inputrhymes"></textarea>
+  <input class="inputbars" type="textarea" name="inputrhymes" accept="text/html" onkeydown="preventEnterSubmission();">
      <button type="submit" class="submitbars">
        R a N d O M i Z e  M E !?!
      </button>
@@ -33,10 +32,10 @@
   <div class="empty" align="center">
   </div>
 <div class="lyrics" id="verse">
-<randomverse></randomverse>
+  <line1></line1><BR>
+  <line2></line2>
 </div>
 
 </div>
 </body>
 
-</config>
